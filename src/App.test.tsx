@@ -742,6 +742,8 @@ describe('App', () => {
       opencode: { installed: false, version: null },
       pi: { installed: false, version: null },
       gemini: { installed: false, version: null },
+      kiro: { installed: false, version: null },
+      hermes: { installed: false, version: null },
     }
     mockCommandResults.check_mcp_status = 'installed'
 
@@ -777,6 +779,8 @@ describe('App', () => {
       opencode: { installed: false, version: null },
       pi: { installed: false, version: null },
       gemini: { installed: false, version: null },
+      kiro: { installed: false, version: null },
+      hermes: { installed: false, version: null },
     }
 
     render(<App />)
@@ -811,6 +815,8 @@ describe('App', () => {
       opencode: { installed: false, version: null },
       pi: { installed: false, version: null },
       gemini: { installed: false, version: null },
+      kiro: { installed: false, version: null },
+      hermes: { installed: false, version: null },
     }
 
     render(<App />)
